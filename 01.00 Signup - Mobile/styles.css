@@ -1,0 +1,226 @@
+body {
+  font-family: Rubik;
+  background-color: black;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  background: #ffffff;
+}
+.image-group {
+  display: flex;
+  align-items: center;
+  background-image: url(/images/background1-small.png);
+}
+
+.image-blend {
+  background-image: url(/images/background1-small.png);
+  background-color: rgba(40, 70, 66, 0.6);
+  width: 320px;
+  height: 253px;
+  background-blend-mode: multiply;
+}
+
+.group {
+  position: absolute;
+  margin-left: 34px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+}
+h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.06px;
+  color: #190f27;
+  margin-top: 50px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  border: 1.5px solid #284642;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #190f27;
+}
+.button:hover {
+  background-color: hsl(209, 68%, 77%);
+  cursor: pointer;
+}
+
+.facebook-instagram-icon {
+  width: 27px;
+  height: 27px;
+  padding-right: 20px;
+}
+
+.text-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.333333px;
+  padding: 20px 0px 15px 0px;
+}
+
+.divider {
+  display: flex;
+  flex: 1;
+  height: 1px;
+  background-color: #edebf0;
+  border-radius: 18px;
+  width: 100%;
+}
+.names {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#first-name {
+  width: 100%;
+  height: 56px;
+  border: 1px solid #edebf0;
+  border-radius: 7px;
+  box-sizing: border-box;
+  padding-left: 18px;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.0571429px;
+  margin-top: 10px;
+}
+
+.last-name {
+  width: 100%;
+  height: 56px;
+  border: 1px solid #edebf0;
+  border-radius: 7px;
+  box-sizing: border-box;
+  padding-left: 18px;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.0571429px;
+  margin-top: 10px;
+}
+
+.first-last.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  border: 1px solid #edebf0;
+  box-sizing: border-box;
+  border-radius: 7px;
+  width: 100%;
+  height: 56px;
+  padding-left: 18px;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.0571429px;
+  margin-top: 10px;
+  color: #190f27;
+}
+
+.password {
+  border: 1px solid #edebf0;
+  box-sizing: border-box;
+  border-radius: 7px;
+  width: 100%;
+  height: 56px;
+  padding-left: 18px;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.0571429px;
+  margin-top: 10px;
+  color: #190f27;
+}
+label {
+  display: flex;
+  color: #64606a;
+  position: relative;
+  left: 20px;
+  top: 15px;
+  background-color: white;
+  width: fit-content;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.333333px;
+  padding: 0px 5px 0px 5px;
+}
+
+::placeholder {
+  display: flex;
+  color: #190f27;
+  height: 23px;
+  font-size: 16px;
+}
+.registration-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  font-family: inherit;
+  background: #284642;
+  line-height: 20px;
+  text-align: center;
+}
+
+.registration-button:hover {
+  background-color: hsl(209, 68%, 77%);
+  cursor: pointer;
+}
+.account {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 14px;
+  color: #64606a;
+  padding-bottom: 30px;
+}
+
+.terms {
+  color: #64606a;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 20px 0px 20px 0px;
+}
+
+.check {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+}
+
+.grey-text {
+  color: #64606a;
+  text-decoration: underline solid #284642;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+}

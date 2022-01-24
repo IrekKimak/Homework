@@ -1,0 +1,246 @@
+body {
+  font-family: Rubik;
+  background-color: black;
+}
+.login-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1920px;
+  background: #ffffff;
+  margin: auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 43%;
+  padding: 11% 7%;
+}
+.image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57%;
+  background-image: url(/images/background1.png);
+  background-color: rgba(40, 70, 66, 0.6);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+.group {
+  display: flex;
+  width: 30%;
+}
+.group img {
+  display: flex;
+  width: 100%;
+}
+h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.06px;
+  color: #190f27;
+  padding-bottom: 2%;
+}
+.reg-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  border: 1.5px solid #284642;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #190f27;
+}
+.button:hover {
+  background-color: hsl(209, 68%, 77%);
+  cursor: pointer;
+}
+.facebook-instagram-icon {
+  width: 27px;
+  height: 27px;
+  padding-right: 20px;
+}
+.text-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.0571429px;
+  padding: 32px 0px;
+}
+.divider {
+  display: flex;
+  flex: 1;
+  height: 1px;
+  background-color: #edebf0;
+}
+.names-container {
+  display: flex;
+  column-gap: 15px;
+  flex: 1;
+}
+.names {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.inputs {
+  width: 100%;
+  height: 56px;
+  padding-left: 18px;
+  box-sizing: border-box;
+  border: 1px solid #edebf0;
+  border-radius: 7px;
+  font-size: 16px;
+  letter-spacing: -0.0571429px;
+}
+textarea:focus,
+input:focus {
+  outline: 1px solid #284642;
+}
+label {
+  width: fit-content;
+  position: relative;
+  color: #64606a;
+  background-color: white;
+  font-size: 10px;
+  left: 15px;
+  top: 15px;
+  letter-spacing: 0.333333px;
+  padding: 0px 5px 8px 5px;
+  line-height: 14px;
+}
+::placeholder {
+  display: flex;
+  color: #190f27;
+  height: 23px;
+  font-size: 16px;
+}
+.registration-button {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  background: #284642;
+  margin-bottom: 16px;
+}
+.account {
+  font-size: 14px;
+  color: #64606a;
+  margin-top: 16px;
+}
+.terms {
+  color: #64606a;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding-top: 16px;
+  padding-bottom: 26px;
+}
+.check {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+}
+.grey-text {
+  color: #64606a;
+  text-decoration: underline solid #284642;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+}
+
+/* Medium
+  devices
+  (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .login-section {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .image-section {
+    display: flex;
+    background-image: url(/images/background1-small.png);
+    justify-content: flex-start;
+    width: 100%;
+    height: 590px;
+  }
+  .form {
+    width: 100%;
+    padding: 11% 10%;
+  }
+  .group {
+    width: 39%;
+    padding: 9%;
+  }
+
+  .names-container {
+    flex-direction: column;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+  .image-section {
+    height: 240px;
+  }
+  .form {
+    padding: 11% 7%;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border: 1.5px solid #284642;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #190f27;
+  }
+  .text-divider {
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.333333px;
+    padding: 20px 0px 15px 0px;
+  }
+  .registration-button {
+    border-radius: 7px;
+    color: white;
+    font-size: 14px;
+    background: #284642;
+    line-height: 20px;
+  }
+  .account {
+    font-size: 12px;
+    line-height: 14px;
+    color: #64606a;
+  }
+  .terms {
+    color: #64606a;
+    font-size: 12px;
+    padding: 20px 0px 20px 0px;
+  }
+}
