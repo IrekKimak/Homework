@@ -165,7 +165,7 @@ label {
 
 /* Medium
   devices
-  (landscape tablets, 768px and down) */
+  (landscape tablets, 910px and down) */
 @media only screen and (max-width: 910px) {
   .main-section {
     flex-direction: column-reverse;
@@ -179,7 +179,7 @@ label {
   }
   .form {
     width: 100%;
-    padding: 11% 10%;
+    padding: 11% 11%;
   }
   .group {
     width: 39%;
