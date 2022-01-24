@@ -206,19 +206,9 @@ label {
     padding: 11% 7%;
   }
   .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 50px;
-    border: 1.5px solid #284642;
-    box-sizing: border-box;
-    border-radius: 7px;
-    background-color: #ffffff;
     font-size: 12px;
     font-weight: 500;
     line-height: 14px;
-    color: #190f27;
   }
   .text-divider {
     font-size: 10px;
@@ -227,8 +217,6 @@ label {
     padding: 20px 0px 15px 0px;
   }
   .registration-button {
-    border-radius: 7px;
-    color: white;
     font-size: 14px;
     background: #284642;
     line-height: 20px;
@@ -236,10 +224,8 @@ label {
   .account {
     font-size: 12px;
     line-height: 14px;
-    color: #64606a;
   }
   .terms {
-    color: #64606a;
     font-size: 12px;
     padding: 20px 0px 20px 0px;
   }
