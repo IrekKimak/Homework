@@ -2,7 +2,7 @@ body {
   font-family: Rubik;
   background-color: black;
 }
-.login-section {
+.main-section {
   display: flex;
   justify-content: space-between;
   max-width: 1920px;
@@ -172,7 +172,7 @@ label {
   devices
   (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
-  .login-section {
+  .main-section {
     flex-direction: column-reverse;
     width: 100%;
   }
