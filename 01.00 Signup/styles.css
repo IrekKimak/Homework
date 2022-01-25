@@ -140,9 +140,11 @@ label {
   cursor: url(/images/Normal\ Select\ -\ Black.cur), auto;
 }
 .account {
+  font-family: Roboto;
   font-size: 14px;
   color: #64606a;
   margin-top: 16px;
+  font-weight: 500;
 }
 .terms {
   color: #64606a;
