@@ -29,7 +29,6 @@ body {
   background-blend-mode: multiply;
 }
 .group {
-  display: flex;
   width: 30%;
 }
 .group img {
@@ -65,8 +64,9 @@ h1 {
 }
 .button:hover {
   background-color: hsl(209, 68%, 77%);
-  cursor: pointer;
+  cursor: default;
 }
+
 .facebook-instagram-icon {
   width: 27px;
   height: 27px;
@@ -137,6 +137,7 @@ label {
   font-size: 18px;
   background: #284642;
   margin-bottom: 16px;
+  cursor: url(/images/Normal\ Select\ -\ Black.cur), auto;
 }
 .account {
   font-size: 14px;
