@@ -4,8 +4,6 @@ body {
 }
 .main-section {
   display: flex;
-  justify-content: space-between;
-  max-width: 1920px;
   background: #ffffff;
   margin: auto;
 }
