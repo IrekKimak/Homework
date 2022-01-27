@@ -5,6 +5,7 @@ body {
 .main-section {
   display: flex;
   background: #ffffff;
+  max-width: 1920px;
   margin: auto;
 }
 .form {
@@ -12,7 +13,7 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   justify-content: center;
-  width: 43%;
+  width: 44%;
   padding: 11% 7%;
 }
 .image-section {
@@ -30,7 +31,8 @@ body {
   width: 30%;
 }
 .group img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 h1 {
   font-weight: 500;
