@@ -22,7 +22,7 @@ body {
   justify-content: center;
   width: 57%;
   background-image: url(/images/background1.png);
-  background-color: rgba(40, 70, 66, 0.6);
+  background-color: #29474399;
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
